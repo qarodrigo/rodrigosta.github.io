@@ -1,18 +1,10 @@
 body{
     height: 100%;
+    background-color: #000;
 }
 #home{
     height: 100vh;
     
-    background-image: url("../images/home.jpg");
-    /* /* background-position: center; */
-    background-repeat: no-repeat;
-    /* background-position-y: center; */
-     /* background-position: top; */
-    
-    background-attachment: fixed;  
-    background-size: cover;
-    background-color: black;
     /* border-radius: 12px; */
 }
 
@@ -21,7 +13,7 @@ body{
     border-radius: 5px;
 }
 
-#home-nav, #port-nav, #sobre-nav, #contato-nav, #logo-site{
+#logo-site{
     text-transform: uppercase;
     color: white;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -31,13 +23,18 @@ body{
     font-size: 15px;
 }
 
+
+
+
+
 #logo-site{
     font-size: 25px;
 }
 
 
 #info{
-    padding-top: 200px;
+    /* padding-top: 200px; */
+    height: 100%;
 }
 #dev{
     font-size: 45px;
@@ -45,29 +42,44 @@ body{
     /* color: white; */
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin-top: 40px;
+}
+
+#cargo{
+    color: #f5fffb;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+
+
 }
 
 #laptop{
-    text-align: center; 
     color: #f5fffb;    
+    text-align: center;
+}
+
+
+.linkedin, .git{
+    color: white;
+}
+.linkedin:hover, .git:hover{
+    color: #1DE9B6;
+
 }
 
 #conheca{
     border-radius: 35px;
     width: 200px;
     height: 45px;
-    background-color:#077af5;
+    background-color:transparent;
+    border: 1px white solid;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: none;
+    /* border: none; */
     font-size: 15px;
     font-family: 'Open Sans Condensed', sans-serif;
-}
 
-#home-nav:hover, #port-nav:hover, #sobre-nav:hover, #contato-nav:hover{
-    color: #077af5;
 }
 
 #conheca:hover{
@@ -75,6 +87,16 @@ body{
     border: 1px white solid;
 }
 
+#name, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    
+}
 
 /* @keyframes example{
     from{color: white;}
